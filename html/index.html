@@ -1,0 +1,177 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kumasi Technical University</title>
+
+<style>
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navbar-menu li {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #777;
+  }
+
+  .navbar-menu li:last-child {
+    border-bottom: none;
+  }
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+  }
+
+  .content {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-10%, -10%);
+    text-align: center;
+    color: #fff;
+    z-index: 500;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+</style>
+</head>
+<body>
+  <nav>
+    <div class="navbar-header">
+      <span class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</span>
+    </div>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li> Kumasi Technical University</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Faculty.html">Faculty</a></li>
+      <li><a href="Department.html">Department</a></li>
+      <li><a href="time table.html">Time Table</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      
+    </ul>
+  </nav>
+  <video id="background-video" loop muted autoplay>
+    <source src="../video/course-video.mp4" type="video/mp4">
+    
+  </video>
+  
+  <div class="content">
+    
+    <!-- Add other content here -->
+  </div>
+
+</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+  <h1 style="color: #fff;"> Welcome to  Kumasi Technical University Applied science website</h1> 
+  <script src="script.js"></script>
+  <script >
+    function toggleMenu() {
+  const navbarMenu = document.getElementById('navbarMenu');
+  navbarMenu.style.display = navbarMenu.style.display === 'flex' ? 'none' : 'flex';
+}
+// Auto adjust video height based on viewport height
+window.addEventListener('resize', function() {
+  const video = document.getElementById('background-video');
+  video.style.minHeight = window.innerHeight + 'px';
+});
+
+  </script>
+  
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>Faculty</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+  <style>
+    body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ nav {
+   background-color: #333;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+ }
+ 
+ .navbar-menu {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+ }
+ 
+ .navbar-menu li {
+   margin-right: 20px;
+ }
+ 
+ .navbar-menu li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .menu-toggle {
+   cursor: pointer;
+ }
+ 
+ @media (max-width: 768px) {
+   .navbar-menu {
+     display: none;
+     flex-direction: column;
+     background-color: #444;
+     position: absolute;
+     top: 50px;
+     left: 0;
+     width: 100%;
+     z-index: 1;
+   }
+ 
+   .navbar-menu li {
+     margin: 0;
+     text-align: center;
+     padding: 10px 0;
+     border-bottom: 1px solid #777;
+   }
+ 
+   .navbar-menu li:last-child {
+     border-bottom: none;
+   }
+ }
+ </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar-header">
+      <span class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</span>
+    </div>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li> Kumasi Technical University</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Faculty.html">Faculty</a></li>
+      <li><a href="Department.html">Department</a></li>
+      <li><a href="time table.html">Time Table</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      
+    </ul>
+  </nav>
+
+  
+<div class="w3-container w3-teal">
+  <h1>Faculties</h1>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/WhatsApp-Image-2023-05-27-at-6.02.54-AM.jpeg" style="width:100%">
+      <div class="w3-container">
+        <h5>Faculty of Engineering</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/KsTU-Admission-students-1024x683_0.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Bussines school</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/com.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Faculty of Applied Science</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/3744-1.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Faculty of Fashion and Art</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/shutterstock_1751379035-1.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Faculty of Communication</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="../image/school-of-grad-studies2.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Faculty of Health Science</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

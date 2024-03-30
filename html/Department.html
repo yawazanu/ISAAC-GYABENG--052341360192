@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>kumasi Technical University</title>
+
+<style>
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .navbar-menu li {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #777;
+  }
+
+  .navbar-menu li:last-child {
+    border-bottom: none;
+  }
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  
+
+
+  body{
+      background-color: rgb(168, 212, 230);
+    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.cart {
+  margin-top: 30px;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.cart h2 {
+  text-align: center;
+}
+
+.payment-form {
+  margin-top: 30px;
+  border: 1px solid red;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+  <nav>
+    <div class="navbar-header">
+      <span class="menu-toggle" onclick="toggleMenu()">&#9776; Menu</span>
+    </div>
+    <ul class="navbar-menu" id="navbarMenu">
+      <li> Kumasi Technical University</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Faculty.html">Faculty</a></li>
+      <li><a href="Department.html">Department</a></li>
+      <li><a href="time table.html">Time Table</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      
+    </ul>
+  </nav>
+  <h1 style="font-size: xx-large;font-family: 'Times New Roman', Times, serif;color: red;"> Departments </h1>
+  
+  <div class="item-grid">
+    <div class="item">
+      <img src="../image/art-architecture-student.jpg" alt="">
+      <p style="color:black;">Department of Art Science</p>
+      
+    </div>
+    <div class="item">
+      <img src="../image/shutterstock_1751379035-1.jpg" alt="">
+    
+      <p style="color:black;">Department of Computer Science</p>
+    </div>
+
+    <!-- Add more item containers as needed -->
+      
+    <div class="item">
+      <img src="../image/school-of-grad-studies2.jpg" alt="">
+      <p> Department of Health Science</p>
+      
+    </div>
+      
+    <div class="item">
+      <img src="../image/cover.jpg" alt="">
+      <p> Department of Information Technolgy</p>
+      
+    </div>
+      
+    <div class="item">
+      <img src="../image/study.jpg" alt="">
+      
+      <p> Department of mathematics</p>
+    </div>
+
+    <div class="item">
+      <img src="../image/KsTU-Admission-students-1024x683_0.jpg" alt="">
+      
+      <p> Department of Bussines Accounting</p>
+    </div>
+    <div class="item">
+      <img src="../image/under_grad_main.jpg" alt="">
+      
+      <p> Department of library  Science</p>
+    </div>
+
+    <div class="item">
+      <img src="../image/3744-1.jpg" alt="">
+      
+      <p> Department of Fashion and Textiles </p>
+    </div>
+    <div class="item">
+      <img src="../image/WhatsApp-Image-2023-05-27-at-6.02.54-AM.jpeg" alt="">
+      
+      <p> Department of Electrical Engineering</p>
+    </div>
+    <div class="item">
+      <img src="../image/researchthemes.jpg" alt="">
+      
+      <p> Department of civil Engineering</p>
+    </div>
+</body>
+  
+</html>
